@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ES2021", "ESNext", "ES2021.String", "ESNext.String"],
+    "module": "commonjs",
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "outDir": "bundle",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  },
+  "extends": "./tsconfig.paths.json",
+  "exclude": ["node_modules"]
+}
