@@ -1,3 +1,3 @@
-import { log } from "./app";
+import { log } from "../core/index.core";
 
 log("Hello, World!")

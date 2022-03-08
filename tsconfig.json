@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["ES2021", "ESNext", "ES2021.String", "ESNext.String"],
+    "lib": ["ES2021", "ESNext", "ES2021.String", "ESNext.String", "DOM"],
     "module": "commonjs",
     "downlevelIteration": true,
     "sourceMap": true,
@@ -13,5 +13,6 @@
     "moduleResolution": "Node"
   },
   "extends": "./tsconfig.paths.json",
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "include": ["src"]
 }
