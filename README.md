@@ -9,11 +9,11 @@
 
 - root
 
-  - <p>** bundle/</p>
+  - <p>*** bundle/</p>
 
   - <p>constants/</p>
 
-  - <p>* core/</p>
+  - <p>** core/</p>
 
     - <p>index.core.ts</p>
 
@@ -21,7 +21,7 @@
 
   - <p>playground/</p>
 
-  - <p>* src/</p>
+  - <p>** src/</p>
 
     - <p>index.ts</p>
 
@@ -31,9 +31,9 @@
 
   - <p>utils/</p>
 
-> > ***\*\**** : initially provided directories
+> ***\*\**** : initially provided directories
 
-> > ***\*\*** : build output directory
+> ***\*\*** : build output directory
 
 <hr>
 
