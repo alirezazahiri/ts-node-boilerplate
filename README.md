@@ -31,9 +31,9 @@
 
   - <p>utils/</p>
 
-> > **\*\*\*** : initially provided directories
+> > ***\*\**** : initially provided directories
 
-> > **\*\*\*\*** : build output directory
+> > ***\*\*** : build output directory
 
 <hr>
 
