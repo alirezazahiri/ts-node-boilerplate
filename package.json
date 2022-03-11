@@ -7,8 +7,8 @@
     "test": "jest",
     "dev": "ts-node ./src/index.ts",
     "play": "ts-node ./playground/index.ts",
-    "build": "tsc -p . && esbuild bundle/src/index.js --bundle --minify --platform=node --target=node10.4 > bundle/index.min.js && sh .sh",
-    "start": "node bundle/index.min.js"
+    "build": "tsc -p . && test -d bundle\\dist || mkdir bundle\\dist && esbuild bundle/src/index.js --bundle --minify --platform=node --target=node10.4 > bundle/dist/index.min.js",
+    "start": "node bundle/dist/index.min.js"
   },
   "dependencies": {
     "ts-node": "^10.5.0"
